@@ -1,0 +1,1911 @@
+﻿/*
+Developed for Aga Khan University's official website
+Developed by: Rahim Khowaja, Mohammed Karim, Akber Iqbal
+department of Public Affairs, Aga Khan University 2016
+*/
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,latin-ext');
+
+
+ /*********About US landing*****************************/
+
+/*********right nav landing*****************************/
+.News-EL-WP ul li
+{
+padding:0px !important;
+list-style-type:none!important;
+}
+
+
+.quickfacts
+{
+    padding:20px 20px 0px 20px;
+	background-color:#539BCB!important;
+}
+.quickfacts ul
+{
+margin-top:-20px !important;
+}
+.quickfacts ul li
+{
+
+background-color:#539BCB!important;
+color:#ffffff;
+margin-bottom:15px;
+font-size:16px!important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-style:normal;
+
+}
+.quickfacts ul li a
+{
+    background-color:#539BCB!important;
+    color:#ffffff!important;
+    font-size:16px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-style:normal;
+}
+.quicfactstxt
+{
+	color:white!important;
+}
+
+.fvitmeicon
+{
+font-size:50px!important;
+color:white!important;
+float:left;
+margin-right: 20px;
+transform: rotate(90deg);
+}
+.careere-box
+{
+float: right;
+margin-right: 40px;
+}
+
+.fvitmetxt
+{
+color:#ffffff!important;
+font-size:22px!important;
+font-family:'Roboto Slab','Helvetica','Times New Roman' !important;
+font-weight:700!important;
+padding-top:15px;
+}
+.rightnavlanding
+{
+padding:20px 20px 0px 35px;
+/*background-color:white!important;*/
+}
+.rightnavlanding h2
+{
+	 margin-left:-20px;
+}
+.rightnavlanding ul
+{
+	margin-left:-35px;
+}
+.rightnavlanding ul li
+{
+	 background-color:white!important;
+	 color:#444444;
+	 margin-bottom:10px;
+	 list-style-type:disc;
+}
+.rightnavlanding ul li a
+{
+	color:#2773cb!important;
+    background-color:#ffffff!important;
+    font-size:15px!important;
+    font-family: Open Sans,Lucida sans, Arial !important;
+    font-weight:600!important;
+}
+.rightnavlanding ul li a:after
+{
+font-family: 'FontAwesome';
+content: '      \f054';
+font-size: 10px !important;
+color:#2773cb!important;
+margin-left:5px !important;
+}
+
+.FullWidthRowabtuspeople
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowabtuspeople.Paralax01abtuspeople:before
+{
+/* background:url('Pictures/Parallex-Images/MCPK-Prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowabtuspeople:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+
+/* Cime Parallex CSS Start updated RK*/
+
+.FullWidthRowcime
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowcime.Paralax01cime:before
+{
+/* background:url('Pictures/Parallex-Images/CIME-prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowcime:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/* Cime Parallex CSS End updated RK*/
+
+
+
+.FullWidthRowabtusEvents {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+    margin-bottom:-20px;
+    margin-top:-10px
+}
+.FullWidthRowabtusEvents.Paralax01abtusEvents:before
+{
+/* background:url('Pictures/Parallex-Images/CIME-prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowabtusEvents:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+
+.FullWidthRowLogos
+{
+position: relative;
+z-index: 1;
+}
+
+.FullWidthRowLogos.Paralax01Logos:before
+{
+background-color:#EEEBE8 !important;
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+.FullWidthRowLogos:before
+{
+background: #EEEBE8;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+.teammodelheaing
+{
+
+color:#ffffff!important;
+font-size:45px!important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-weight:normal!important;
+font-style:normal;
+
+}
+.teammodeltxt p
+{
+color:#ffffff !important;
+font-size:30px !important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-weight:300 !important;
+text-align:center !important;
+}
+.FullWidthImpact .teammodeltxtimpact p {
+    color: #ffffff !important;
+    font-size: 30px !important;
+    font-family: "Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight: normal !important;
+    text-align: center !important;
+}
+
+@media only screen and (max-width : 767px)
+{
+.teammodelheaing
+{
+
+color:#ffffff !important;
+font-size:30px !important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-weight:normal!important;
+font-style:normal;
+}
+
+.teammodeltxt p
+{
+color:#ffffff !important;
+font-size:28px !important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-weight:300 !important;
+text-align:center !important;
+}
+
+}
+
+.teammodelheaingimpact
+{
+
+color:#ffffff!important;
+font-size:38px!important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+font-weight:normal!important;
+font-style:normal;
+}
+
+
+.teammodeltxt p a
+{
+	color:#ffffff!important;
+    font-size:30px!important;
+   font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+
+}
+
+.teammodelbtnsquare
+{
+    color:#ffffff!important;
+    font-size:16px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:700!important;
+
+}
+/******************Tabs module in lading*******************/
+.tabmargin
+{
+	margin-top:15px;
+    padding:0px;
+}
+.tabs1heading
+{
+	color:#333333!important;
+    font-size:37px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:400!important;
+}
+.tabs1txt p
+{
+	color:#666666!important;
+    font-size:16px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+}
+.tabs1button
+{
+	color:#3c3770!important;
+    font-size:16px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    border-color:#3c3770!important;
+}
+.BG_NewPrwing
+{
+/* background-image:url('Pictures/About-Campus-Widget/npw.jpg')!important; */
+background-repeat: no-repeat !important;
+min-height: 375px!important;
+
+}
+
+.BG_CIME
+{
+/* background-image: url('Pictures/About-Campus-Widget/cime.jpg') !important; */
+background-repeat: no-repeat !important;
+min-height: 375px!important;
+
+}
+
+.BG_Gird
+{
+/* background-image: url('Pictures/About-Campus-Widget/grid.jpg') !important; */
+background-repeat: no-repeat !important;
+min-height: 375px!important;
+}
+
+.BG_OR
+{
+/* background-image: url('Pictures/About-Campus-Widget/or.jpg') !important; */
+background-repeat: no-repeat !important;
+min-height: 375px!important;
+}
+
+.BG_NICU
+{
+/* background-image: url('Pictures/About-Campus-Widget/nicu.jpg') !important; */
+background-repeat: no-repeat !important;
+min-height: 375px!important;
+}
+
+.item-group-tab1
+{
+padding: 25px 15px !important;
+height: 71px !important;
+font-size: 16px !important;
+color: #ffffff !important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+border: none !important;
+position: relative;
+font-style:normal !important;
+display: block;
+text-align:center;
+}
+@media screen and (max-width: 1200px)
+{
+.item-group-tab1
+{
+text-align:center;
+}
+}
+
+.item-group-tab1:hover
+{
+font-size: 16px !important;
+color: #ffffff !important;
+font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+text-decoration: none;
+background: rgb(159,108,63); /* Fallback */
+background: rgba(159,108,63, 0.4);
+}
+.submittb1
+{
+height: 50px;
+border-bottom: 1px solid #9F6C3F;
+}
+
+/**********Awards Module********************/
+.FullWidthRowawards {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+    margin-top:35px;
+}
+.FullWidthRowawards.Paralax01awards:before{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.FullWidthRowawards:before {
+    background: #EFECE9;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+}
+
+.owl-carousel .owl-item img
+{
+	width:auto !important;
+}
+
+/**********Research Landing**************/
+
+/*****conect us************/
+
+.FullWidthRowconnectus {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+}
+.FullWidthRowconnectus.Paralax01connectus:before
+{
+/* background:url('Pictures/HP-Images/parallax01.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+.FullWidthRowconnectus:before {
+    background: #018d50;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+}
+
+
+
+
+.padding-right40
+{
+	padding-right:40px;
+}
+.padding-right20
+{
+	padding-right:40px;
+}
+
+
+/**************Hover box********************/
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+
+}
+
+
+.hovereffect .overlay3Col {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+
+}
+
+
+.hovereffect img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffect p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover .overlay3Col,
+.hovereffect:hover .overlay4Col,
+.hovereffect:hover .overlay6Col,
+.hovereffect:hover .overlay8Col
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRow
+{
+    background:#601C1B;
+    background:rgba(96, 28, 27, 0.58);
+    padding:7px 20px 7px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+
+.AKUBoxText   {
+    color:White;
+    font-size:12px;
+    }
+.hovereffect:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/******End box*************/
+
+.donatebox
+{
+	margin-left:0px;
+	margin-right:35px;
+	background-color:#539bcb;
+}
+.carrersbox
+{
+    margin-left:0px;
+	margin-right:35px;
+	background-color:#9f6c3f;
+}
+.boxtpmargin10
+{
+	margin-top:10px;
+}
+.boxbtommmargin10
+{
+	margin-bottom:10px;
+}
+.donateboxmargin
+{
+margin-bottom:30px;
+}
+.boxicon
+{
+font-size:45px;
+color:#ffffff;
+float:left;
+margin-right: 20px;
+}
+.boxheading
+{
+	font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-size: 30px!important;
+    font-weight: 300!important;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    }
+.boxheading1
+{
+	font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-size: 15px!important;
+    font-weight: 300;
+    color: #ffffff!important;}
+.boxtext1
+{
+	font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+	font-size:16px!important;
+	font-weight: 300;
+	color:#ffffff!important;
+
+}
+
+/********************Medical college*************/
+
+/******color chnage css for hover box***************/
+
+
+
+.hovereffectmcbox {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectmcbox .overlaymcbox {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcbox .overlay3Colmcbox {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcbox img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcbox p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectmcbox:hover .overlaymcbox,
+.hovereffectmcbox:hover .overlay3Colmcbox,
+.hovereffectmcbox:hover .overlay4Colmcbox,
+.hovereffectmcbox:hover .overlay6Colmcbox,
+.hovereffectmcbox:hover .overlay8Colmcbox
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowmcbox
+{
+    background:#601C1B;
+    background:rgba(2, 120, 60, 0.57);
+    padding:14px 30px 14px 20px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+
+.AKUBoxTextmcbox   {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectmcbox:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/************mc partnership module**************/
+.FullWidthRowmcpartner {
+    position: relative;
+    z-index: 1;
+    padding: 42px 0;
+}
+.FullWidthRowmcpartner.Paralax01mcpartner:before
+{
+/* background:url('Pictures/HP-Images/parallax01.jpg') !important; */
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover
+}
+.FullWidthRowmcpartner:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+.mcboxmain ul
+{
+padding-left:6px;
+}
+.mcboxmain ul li
+{
+padding:0px;
+list-style-type:none!important;
+}
+.mcboxmain ul li a:before
+{
+font-family: 'FontAwesome';
+content: '\f054  ';
+font-size: 14px !important;
+color: #666666 !important;
+}
+/******************MCPK Landing********************/
+
+/******color chnage css for hover box***************/
+.hovereffectmcpkbox {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectmcpkbox .overlaymcpkbox {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox .overlay3Colmcpkbox {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectmcpkbox:hover .overlaymcpkbox,
+.hovereffectmcpkbox:hover .overlay3Colmcpkbox,
+.hovereffectmcpkbox:hover .overlay4Colmcpkbox,
+.hovereffectmcpkbox:hover .overlay6Colmcpkbox,
+.hovereffectmcpkbox:hover .overlay8Colmcpkbox
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowmcpkbox
+{
+    background:#601C1B;
+    background:rgba(96, 28, 27, 0.58);
+    padding:7px 20px 7px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+.AKUBoxTextmcpkbox   {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectmcpkbox:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/******color chnage css for hover box 1***************/
+
+.hovereffectmcpkbox1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectmcpkbox1 .overlaymcpkbox1 {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox1 .overlay3Colmcpkbox1 {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox1 img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmcpkbox1 p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectmcpkbox1:hover .overlaymcpkbox1,
+.hovereffectmcpkbox1:hover .overlay3Colmcpkbox1,
+.hovereffectmcpkbox1:hover .overlay4Colmcpkbox1,
+.hovereffectmcpkbox1:hover .overlay6Colmcpkbox1,
+.hovereffectmcpkbox1:hover .overlay8Colmcpkbox1
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowmcpkbox1
+{
+    background:#3299C4;
+    background:rgba(50, 153, 196, 0.90);
+    padding:20px 30px 20px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+.AKUBoxTextmcpkbox1  {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectmcpkbox1:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/***************Pakistan Landing**************/
+
+.quickfactspk
+{
+    padding:20px 20px 0px 20px;
+	background-color:#1AB8D1!important;
+}
+.quickfactspk ul
+{
+
+}
+.quickfactspk ul li
+{
+
+	 background-color:#1AB8D1!important;
+	 color:#ffffff;
+	 margin-bottom:15px;
+}
+.quickfactspk ul li a
+{
+    background-color:#1AB8D1!important;
+    color:#ffffff!important;
+    font-size:16px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-style:normal;
+}
+.quickfactspk ul li a:hover
+{
+
+}
+.quickfactspk ul li a:focus
+{
+
+}
+.quicfactstxtpk
+{
+	color:white!important;
+	margin-bottom:25px;
+}
+/********hover box***********/
+.hovereffectpk {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectpk .overlaypk {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectpk .overlay3Colpk {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectpk img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectpk p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectpk:hover .overlaypk,
+.hovereffectpk:hover .overlay3Colpk,
+.hovereffectpk:hover .overlay4Colpk,
+.hovereffectpk:hover .overlay6Colpk,
+.hovereffectpk:hover .overlay8Colpk
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowpk
+{
+    background:#4D3C46;
+    background:rgba(77, 60, 70, 0.53);
+    padding:20px 20px 20px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+.AKUBoxTextpk  {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectpk:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*
+.teammodelheaing
+{
+
+	color:#ffffff!important;
+    font-size:45px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:normal!important;
+    font-style:normal;
+
+}*/
+.teammodelheaing a
+{
+color:#ffffff!important;
+
+}
+.teammodelheaingpk
+{
+
+	color:#ffffff!important;
+    font-size:45px!important;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:700!important;
+    font-style:normal;
+
+}
+
+.FullWidthRowpk {
+    position: relative;
+    z-index: 1;
+    padding: 70px 0;
+}
+.FullWidthRowpk.Paralax01pk:before
+{
+/* background:url('Pictures/HP-Images/parallax01.jpg') !important; */
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover
+}
+.FullWidthRowpk:before {
+    background: #018d50;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+
+}
+.FullWidthRowNews {
+    position: relative;
+    z-index: 1;
+}
+.FullWidthRowNews.Paralax01News:before
+{
+/* background:url('Pictures/HP-Images/Video-Pattern.jpg') !important; */
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover
+}
+.FullWidthRowNews:before {
+    background: #018d50;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    margin-bottom:-20px;
+    margin-top:-20px;
+    left:0!important;
+	right:0!important;
+
+}
+
+
+
+/***************UK Landing******************/
+.hovereffectuk {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectuk .overlayuk {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectuk .overlay3Coluk {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectuk img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectuk p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectuk:hover .overlayuk,
+.hovereffectuk:hover .overlay3Coluk,
+.hovereffectuk:hover .overlay4Coluk,
+.hovereffectuk:hover .overlay6Coluk,
+.hovereffectuk:hover .overlay8Coluk
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowuk
+{
+    background:#138758;
+    background:rgba(29, 40, 76, 0.65);
+    padding:20px 30px 20px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+ .HeadingRowuk a
+    {
+	color:#ffffff !important;
+	}
+
+.AKUBoxTextuk  {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectuk:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.float-right
+{
+	float:right;
+}
+
+/******************MCEA Landing********************/
+
+/******color chnage css for hover box***************/
+
+.hovereffectmceabox {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+.hovereffectmceabox .overlaymceabox {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+.hovereffectmceabox .overlay3Colmceabox {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+.hovereffectmceabox img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+.hovereffectmceabox p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+.hovereffectmceabox:hover .overlaymceabox,
+.hovereffectmceabox:hover .overlay3Colmceabox,
+.hovereffectmceabox:hover .overlay4Colmceabox,
+.hovereffectmceabox:hover .overlay6Colmceabox,
+.hovereffectmceabox:hover .overlay8Colmceabox
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+.HeadingRowmceabox
+{
+    background:#CA7A3D;
+    background:rgba(202, 122, 61, 0.54);
+    padding:7px 20px 7px 15px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+    .HeadingRowmceabox a
+    {
+	color:#ffffff !important;
+	}
+
+.AKUBoxTextmceabox   {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectmceabox:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/******color chnage css mcea for hover box 1***************/
+
+.hovereffectmceabox1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.hovereffectmceabox1 .overlaymceabox1 {
+    width: 100%;
+    height:auto;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .3);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmceabox1 .overlay3Colmceabox1 {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: auto;
+	bottom: 0;
+	padding: 0% 0px 0% 15px;
+	background: rgba(54, 25, 25, .8);
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmceabox1 img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+
+.hovereffectmceabox1 p {
+    color: White;
+    position: relative;
+    padding: 10px;
+    float: left;
+	margin: -10px;
+	width:100%;
+	display: inline-block;
+}
+
+
+.hovereffectmceabox1:hover .overlaymceabox1,
+.hovereffectmceabox1:hover .overlay3Colmceabox1,
+.hovereffectmceabox1:hover .overlay4Colmceabox1,
+.hovereffectmceabox1:hover .overlay6Colmceabox1,
+.hovereffectmceabox1:hover .overlay8Colmceabox1
+{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+}
+
+.HeadingRowmceabox1
+{
+    background:#CA7A3D;
+    background:rgba(202, 122, 61, 0.54);
+    padding:20px 30px 20px 15px;
+    color:#ffffff !important;
+    text-transform:uppercase;
+    font-size:15px!important;;
+    font-family:"Roboto Slab", Helvetica, Times New Roman !important;
+    font-weight:300 !important;
+    }
+
+    .HeadingRowmceabox1 a
+{
+color:#ffffff !important;
+
+}
+.AKUBoxTextmceabox1  {
+    color:White;
+    font-size:12px;
+    }
+.hovereffectmcpkbox1:hover  img {
+/* ZOOM wala shashka */
+       -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/******************Content CSS****************/
+.leftnavcontent
+{
+padding:20px 20px 0px 20px;
+
+}
+.leftnavcontent h2
+{
+	 margin-left:-20px;
+}
+.leftnavcontent ul
+{
+	margin-left:-35px;
+}
+.leftnavcontent ul li
+{
+	 background-color:white!important;
+	 color:#444444;
+	 margin-bottom:10px;
+	 list-style-type:square;
+}
+.leftnavcontent ul li a
+{
+	color:#2773cb!important;
+    background-color:#ffffff!important;
+    font-size:14px!important;
+    font-family:Open Sans,Lucida sans, Arial!important;
+    font-style:normal!important;
+}
+
+/******************Content Layouts Full Width Header****************/
+.BG-CP-Neutral::before
+{
+background: #00843D !important;
+content: "" !important;
+position: absolute !important;
+z-index: -1 !important;
+top: 0 !important;
+bottom: 0 !important;
+left: -100% !important;
+right: -100% !important;
+height:6px !important;
+
+
+}
+.BG-CP-Neutral
+{
+/*
+position: relative !important;
+z-index: 1 !important;
+margin-bottom:5px !important;
+*/
+    position: relative !important;
+    z-index: 1 !important;
+    margin-bottom: 5px !important;
+    /* margin-top: 20px !important; */
+    padding-bottom: 2px !important;
+}
+
+
+/******************End Content Layouts Full Width Header****************/
+
+/* Changes start on April 23 */
+    .hovereffect .overlay3col1L1R     {
+       -webkit-transform: translate3d(0,79%,0); /* 59 for SharePoint */
+       transform: translate3d(0,79%,0); /* 59 for SharePoint */
+        }
+
+    .hovereffect .overlay3col1L2R,
+    .hovereffect .overlay3col2L2R        {
+       -webkit-transform: translate3d(0,70%,0); /* 47 for SharePoint */
+       transform: translate3d(0,70%,0); /* 47 for SharePoint */
+        }
+
+
+    .hovereffect .overlay3col3L3R,
+    .hovereffect .overlay3col2L3R    {
+       -webkit-transform: translate3d(0,63%,0); /* 39 for sharePoint */
+       transform: translate3d(0,63%,0); /* 39 for sharePoint */
+        }
+
+
+    .hovereffect .overlay3col2L4R,
+    .hovereffect .overlay3col3L4R,
+    .hovereffect .overlay3col4L4R    {
+       -webkit-transform: translate3d(0,58%,0); /* 39 for sharePoint */
+       transform: translate3d(0,58%,0); /* 39 for sharePoint */
+        }
+
+    .hovereffect .overlay4col1L1R     {
+       -webkit-transform: translate3d(0,76%,0); /* 59 for sharePoint */
+       transform: translate3d(0,76%,0); /* 59 for sharePoint */
+        }
+
+    .hovereffect .overlay4col1L2R,
+    .hovereffect .overlay4col2L2R     {
+       -webkit-transform: translate3d(0,67%,0); /* 47 for sharePoint */
+       transform: translate3d(0,67%,0); /* 47 for sharePoint */
+        }
+
+    .hovereffect .overlay4col1L3R,
+    .hovereffect .overlay4col2L3R,
+    .hovereffect .overlay4col3L3R     {
+       -webkit-transform: translate3d(0,60%,0); /* 39 for sharePoint */
+       transform: translate3d(0,60%,0); /* 39 for sharePoint */
+        }
+
+    .hovereffect .overlay4col1L4R,
+    .hovereffect .overlay4col2L4R,
+    .hovereffect .overlay4col3L4R     {
+       -webkit-transform: translate3d(0,54%,0); /* 34 for sharePoint */
+       transform: translate3d(0,54%,0);  /* 34 for sharePoint */
+        }
+
+/* Changes end on April 23 */
+
+
+/* Changes start on April 25 */
+.hovereffectmcpkbox1, .overlay3col2L4R
+{
+-webkit-transform: translate3d(0,62%,0); /* 39 for sharePoint */
+transform: translate3d(0,62%,0); /* 39 for sharePoint */
+}
+
+.hovereffectmcbox, .overlay3col2L2R
+{
+-webkit-transform: translate3d(0,58%,0); /* 39 for sharePoint */
+transform: translate3d(0,58%,0); /* 39 for sharePoint */
+}
+.hovereffect .overlay6col2L1R,
+.hovereffect .overlay6col2L2R
+{
+-webkit-transform: translate3d(0,64%,0);
+transform: translate3d(0,64%,0);
+}
+/*  Changes end on April 25 */
+
+@media only screen and (max-width : 992px)
+{
+.carrersbox
+{
+margin-left:0px !important
+}
+.donatebox
+{
+margin-left:0px !important
+}
+}
+
+/*  Parallex Zone for About Us Report */
+.FullWidthRowAboutUsReport {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+}
+.FullWidthRowAboutUsReport.Paralax01AboutUsReport:before
+{
+/* background:url('Pictures/Parallex-Images/plx-report.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+.FullWidthRowAboutUsReport:before {
+    background: #018d50;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+}
+/*  End Parallex Zone for About Us Report */
+
+
+/*  Parallex Zone for Admissions ViewBook */
+.FullWidthRowAdmsViewBook {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+    margin-bottom:-20px !important;
+}
+.FullWidthRowAdmsViewBook.Paralax01AdmsViewBook:before
+{
+/* background:url('Pictures/Parallex-Images/plx-viewbook_edit.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+.FullWidthRowAdmsViewBook:before {
+    background: #018d50;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+}
+/*  End Parallex Zone for Admissions ViewBook */
+
+/*  Parallex Zone for Sonam PK */
+
+.FullWidthRowSonamPK
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowSonamPK.Paralax01SonamPK:before
+{
+/* background:url('Pictures/Parallex-Images/Sonam-PK-Prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowSonamPK:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for Sonam PK */
+
+/*  Parallex Zone for CRM */
+
+.FullWidthRowCRM
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowCRM.Paralax01CRM:before
+{
+/* background:url('Pictures/Parallex-Images/CRM-Parallax.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowCRM:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for CRM */
+
+/*  Parallex Zone for SONAM-EA */
+
+.FullWidthRowSONAMEA
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowSONAMEA.Paralax01SONAMEA:before
+{
+/* background:url('/Style%20Library/Pictures/Parallex-Images/JJ-report-parallex.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowSONAMEA:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for SONAM-EA */
+
+
+/*  Parallex Zone for IED-PK */
+
+.FullWidthRowIEDPK
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowIEDPK.Paralax01IEDPK:before
+{
+/* background:url('Pictures/Parallex-Images/iedpk-parallax.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowIEDPK:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for IED-PK */
+
+/*  Parallex Zone for MC-PK */
+
+.FullWidthRowMCPK
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowMCPK.Paralax01MCPK:before
+{
+/* background:url('Pictures/Parallex-Images/MC-PK-Prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowMCPK:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for MC-PK */
+
+/*  Parallex Zone for ISMC */
+
+.FullWidthRowISMC
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowISMC.Paralax01ISMC:before
+{
+/* background:url('Pictures/Parallex-Images/ISMC-Prallx.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowISMC:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for ISMC */
+
+
+
+/*  Parallex Zone for QTL */
+
+.FullWidthRowQTL
+{
+position: relative;
+z-index: 1;
+padding: 50px 0;
+}
+
+.FullWidthRowQTL.Paralax01QTL:before
+{
+/* background:url('/Style%20Library/Pictures/Parallex-Images/qtl-parallex.jpg') no-repeat fixed !important; */
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+}
+
+.FullWidthRowQTL:before {
+background: #018d50;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: -100%;
+right: -100%;
+}
+/*  End Parallex Zone for QTL */
+
+
+
+/* Start of systemic alignment issues in mobile - June 8, 2016 */
+@media screen and (max-width:844px)
+{
+.BottomMain
+{
+margin-left:15px;
+margin-right:15px;
+}
+}
+/* end of systemic alignment issues in mobile - June 8, 2016 */
+
+/* Start of accordian - AI - June 13 */
+@media screen and (max-width:991px)
+{
+	.donatebox
+	{
+		margin-left:0px;
+		margin-right:5px;
+		background-color:#539bcb;
+	}
+	.carrersbox
+	{
+	    margin-left:0px;
+		margin-right:5px;
+		background-color:#9f6c3f;
+	}
+}
+/* End of accordian - AI - June 13 */
+
+/* start of hover boxes alignment for mobile - AI - June 28 */
+@media only screen and (max-width : 767px) {
+.hovereffect .overlay3col1L2R { -webkit-transform: translate3d(0,65%,0); transform: translate3d(0,65%,0); }
+.hovereffect .overlay3col2L2R { -webkit-transform: translate3d(0,66%,0); transform: translate3d(0,66%,0); }
+.hovereffect .overlay4col1L3R { -webkit-transform: translate3d(0,54%,0); transform: translate3d(0,54%,0); }
+.hovereffect .overlay3col2L2R { -webkit-transform: translate3d(0,67%,0); transform: translate3d(0,67%,0); }
+.hovereffect .overlay3col1L1R { -webkit-transform: translate3d(0,76%,0); transform: translate3d(0,76%,0); }
+.hovereffect .Overlay6col2L2R { -webkit-transform: translate3d(0,63%,0); transform: translate3d(0,63%,0); }
+}/* End of hover boxes alignment for mobile - AI - June 28 */
+
+/* Start of Grey accordian - AI - June 27 */
+.AKUAccordianIconHolderG  {float: right; }
+.AKUAccordianIconHolderG2 {float: right; }
+.AKUAccordianHeadingGrey a
+{
+color: Black !important;
+font-size:15px !important;
+font-weight:bold;
+height: auto;
+text-decoration:none;
+background-color:#efefef !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+border-bottom-left-radius: 0px !important;
+}
+.AKUAccordianText {    background-color: White;    padding: 17.5px 21px 17.5px 21px !important;    }
+.AKUAccordianHeadingGrey a:hover{    background-color: #333333 !important; text-decoration:none; }
+.AKUAccordianPanelGrey{ font-family:"Open Sans";   background-color: Green !important; padding: 17.5px 21px 17.5px 21px;   }
+
+#GreyAccordion .panel .panel-heading a:before {display:none;}
+#GreyAccordion .panel .panel-heading:hover a{color:white !important;}
+#GreyAccordion .panel .panel-heading a:focus{color:#00843d !important;}
+#GreyAccordion .panel .panel-heading:hover a:focus{color:white !important;}
+#GreyAccordion .panel, #GreyAccordion .panel-default {border-radius: 0px;  border-color:#e6e6e6 !important}
+#GreyAccordion .panel {margin:15px 0px 15px 0px;}
+#GreyAccordion .panel .panel-heading {             border-radius: 0;    margin: 0;    padding: 0;    }
+#GreyAccordion .panel .panel-heading a {display: block;}
+
+.AKUAccordianHeadingGrey .collapsed {   background-color:#efefef !important;    border-style: none;    font-color: white;    height: auto;    border-top-left-radius: 0px !important;    border-top-right-radius: 0px !important;    border-bottom-right-radius: 0px !important;    border-bottom-left-radius: 0px !important; }
+/* End of Grey accordian - AI - June 27 */
