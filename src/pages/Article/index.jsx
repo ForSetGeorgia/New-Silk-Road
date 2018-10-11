@@ -37,7 +37,7 @@ class Article extends Component {
               <div>
                 <h1>{article.title}</h1>
 
-                <div>{article.content}</div>
+                <div dangerouslySetInnerHTML={{__html: article.content}} />
                 {
                   bio ? (
                     <div>
