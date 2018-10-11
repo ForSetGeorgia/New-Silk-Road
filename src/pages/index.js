@@ -1,0 +1,5 @@
+export {default as AboutEvent} from './AboutEvent/index.jsx'
+export {default as AboutOrganizers} from './AboutOrganizers/index.jsx'
+export {default as Article} from './Article/index.jsx'
+export {default as Biographies} from './Biographies/index.jsx'
+export {default as Home} from './Home/index.jsx'

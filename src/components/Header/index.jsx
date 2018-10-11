@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './style.css'
 
@@ -19,7 +20,7 @@ class Header extends React.Component {
                   <div className="row">
                       <div className="col-lg-2 col-md-2 col-sm-12 LogoPane noindex" id="Logo">
                           <div id="DeltaSiteLogo">
-                              <a id="ctl00_onetidProjectPropertyTitleGraphic" className="ms-siteicon-a" href="/">
+                              <a id="ctl00_onetidProjectPropertyTitleGraphic" className="ms-siteicon-a" href="https://www.aku.edu/">
                                 <img id="ctl00_onetidHeadbnnr2" className="ms-siteicon-img logo-left-space mainlogo-margin" name="onetidHeadbnnr0" src={img} alt="Institute for the Study of Muslim Civilisations" />
                               </a>
                           </div>
@@ -35,35 +36,17 @@ class Header extends React.Component {
                                       </div>
                                       <div className="collapse navbar-collapse" id="myNavbar">
                                           <ul className="nav navbar-nav AINav ">
-                                              <li className="dropdown">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="https://www.aku.edu/about/Pages/home.aspx" aria-expanded="false">
-                  <span className="AIMMClickable"> About Us </span>
-                  </a>
+                                              <li>
+                                                  <Link to={'/'}><span className="AIMMClickable"> Home </span></Link>
                                               </li>
-                                              <li className="dropdown">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="https://www.aku.edu/academics/Pages/home.aspx">
-                  <span className="AIMMClickable"> Academics </span>
-                  </a>
+                                              <li>
+                                                  <Link to={'/biographies'}><span className="AIMMClickable"> Biographies </span></Link>
                                               </li>
-                                              <li className="dropdown">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="https://www.aku.edu/admissions/Pages/home.aspx" aria-expanded="false">
-                  <span className="AIMMClickable"> Admissions </span>
-                  </a>
+                                              <li>
+                                                  <Link to={'/about-event'}><span className="AIMMClickable"> About Event </span></Link>
                                               </li>
-                                              <li className="dropdown">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="https://www.aku.edu/research/Pages/home.aspx">
-                  <span className="AIMMClickable"> Research </span>
-                  </a>
-                                              </li>
-                                              <li className="dropdown">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="https://www.aku.edu/supportus/Pages/home.aspx">
-                  <span className="AIMMClickable"> Support Us </span>
-                  </a>
-                                              </li>
-                                              <li className="dropdown AIMMSecNavBkgInfo hidden-lg hidden-md ">
-                                                  <a className="dropdown-toggle" data-toggle="dropdown" href="#">
-                  <span className="AIMMClickable"> Information for  </span>
-                  </a>
+                                              <li>
+                                                  <Link to={'/about-organizers'}><span className="AIMMClickable"> About Organizers </span></Link>
                                               </li>
                                           </ul>
                                       </div>

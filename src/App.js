@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 
+import { Home, AboutEvent, AboutOrganizers, Article, Biographies } from './pages'
 import { Meta, Header, Breadcrumb, Footer } from './components'
 
 import './styles/app.css'
@@ -35,7 +36,17 @@ class App extends Component {
 
                           <div className="container">
                             <div className='row'>
-                              <p>... insert content here</p>
+
+                              <Switch>
+                                <Route exact path='/' render={(props) => <Home {...props} />} />
+                                <Route path='/about-event' render={(props) => <AboutEvent {...props} />} />
+                                <Route path='/about-organizers' render={(props) => <AboutOrganizers {...props} />} />
+                                <Route path='/biographies' render={(props) => <Biographies {...props} />} />
+                                <Route path='/article/:article_id' render={(props) => <Article {...props} />} />
+                                <Redirect to='/' />
+                              </Switch>
+
+
                             </div>
 
                           </div>
@@ -52,4 +63,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App)
