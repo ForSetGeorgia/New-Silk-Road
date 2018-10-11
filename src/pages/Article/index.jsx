@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 
 import articles from './data.json'
+import bios from '../Biographies/data.json'
 
 import './style.css'
 
@@ -10,10 +11,24 @@ class Article extends Component {
     super(props)
   }
 
+  getBio(author_id){
+    let bio = null
+
+    for(let i=0;i<bios.length;i++){
+      if (bios[i].id === author_id){
+        bio = bios[i]
+        break
+      }
+    }
+
+    return bio
+  }
+
   render () {
     const splitPath = this.props.match.params.article_id.split('/')
     const article_id = splitPath.slice(-1)[0]
     const article = article_id ? articles[article_id] : null
+    const bio = article && article.author_id && bios ? this.getBio(article.author_id) : null
 
     return (
       <div>
@@ -23,6 +38,17 @@ class Article extends Component {
                 <h1>{article.title}</h1>
 
                 <div>{article.content}</div>
+                {
+                  bio ? (
+                    <div>
+                      <hr />
+                      <div className='bio'>
+                        <h2>{bio.name}</h2>
+                        <p>{bio.bio}</p>
+                      </div>
+                    </div>
+                  ) : ''
+                }
               </div>
           ) : (
             <Redirect to='/' />

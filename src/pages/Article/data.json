@@ -4,27 +4,31 @@
     "summary": "this is the summary",
     "content": "this is the content",
     "thumbnail": "thumbnail",
-    "share-image": "share-image"
+    "share-image": "share-image",
+    "author_id": 1
   },
   "2": {
     "title": "this is a title 2",
     "summary": "this is the summary",
     "content": "this is the content",
     "thumbnail": "thumbnail",
-    "share-image": "share-image"
+    "share-image": "share-image",
+    "author_id": 2
   },
   "3": {
     "title": "this is a title 3",
     "summary": "this is the summary",
     "content": "this is the content",
     "thumbnail": "thumbnail",
-    "share-image": "share-image"
+    "share-image": "share-image",
+    "author_id": 3
   },
   "4": {
     "title": "this is a title 4",
     "summary": "this is the summary",
     "content": "this is the content",
     "thumbnail": "thumbnail",
-    "share-image": "share-image"
+    "share-image": "share-image",
+    "author_id": 4
   }
 }
