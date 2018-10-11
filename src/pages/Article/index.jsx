@@ -39,6 +39,14 @@ class Article extends Component {
 
                 <div dangerouslySetInnerHTML={{__html: article.content}} />
                 {
+                  article.footnotes ? (
+                    <div>
+                      <h2>Footnotes</h2>
+                      <div dangerouslySetInnerHTML={{__html: article.footnotes}} />
+                    </div>
+                  ) : ''
+                }
+                {
                   bio ? (
                     <div>
                       <hr />
