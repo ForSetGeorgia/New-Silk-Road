@@ -22,11 +22,13 @@ class Home extends Component {
               <h2>Articles</h2>
               <ul className='articles'>
                 {
-                  Object.keys(articles).map((key) => {
-                    return <li key={key}>
-                      <div className='article-title'><Link to={`/article/${key}`}>{articles[key].title}</Link></div>
-                      <div className='article-summary'>{articles[key].summary}</div>
-                    </li>
+                  Object.keys(articles).map((key, index) => {
+                    return (
+                      <li key={key} className={`article article-${index}`}  >
+                        <div className='article-title'><Link to={`/article/${key}`}>{articles[key].title}</Link></div>
+                        <div className='article-summary'>{articles[key].summary}</div>
+                      </li>
+                    )
                   })
                 }
               </ul>

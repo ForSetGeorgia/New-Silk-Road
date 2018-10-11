@@ -1,0 +1,37 @@
+.bios {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-gap: 20px;
+  max-width: 1100px;
+  grid-template-areas: "p0"
+                       "p1"
+                       "p2"
+                       "p3"
+                       "p4";
+}
+
+@media(min-width:991px) {
+  .bios {
+    grid-template-areas: "p0 p1"
+                         "p2 p3"
+                         "p4 .";
+  }
+}
+
+.bios .bio-item.person-0{
+  grid-area: p0;
+}
+.bios .bio-item.person-1{
+  grid-area: p1;
+}
+.bios .bio-item.person-2{
+  grid-area: p2;
+}
+.bios .bio-item.person-3{
+  grid-area: p3;
+}
+.bios .bio-item.person-4{
+  grid-area: p4;
+}
+
