@@ -5,11 +5,11 @@ import { Meta, Header, Breadcrumb, Footer } from './components'
 
 import './styles/app.css'
 
-// import $ from 'jquery';
-// window.jQuery = $;
-// window.$ = $;
-// global.jQuery = $;
-// const bootstrap = require('./scripts/bootstrap');
+import $ from 'jquery'
+window.jQuery = $
+window.$ = $
+global.jQuery = $
+require('bootstrap')
 
 class App extends Component {
   render() {
@@ -28,7 +28,7 @@ class App extends Component {
                           <div id="pageStatusBar" className="ms-status-blue" style={{display: 'none'}}></div>
                       </div>
                       <div id="DeltaPlaceHolderMain">
-                          <a name="mainContent" tabindex="-1"></a>
+                          <a name="mainContent" tabIndex="-1"></a>
                           <div className="BG-CP-Neutral"></div>
 
                           <Breadcrumb key='breadcrumb' />
