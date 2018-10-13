@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 
+import { Meta } from '../../components'
 import './style.css'
 
 class AboutOrganizers extends Component {
   render () {
     return (
       <div>
+        <Meta {...this.props} title='About Organizers' />
+
         <h1>About Organizers</h1>
 
         <h2>Aga Khan University</h2>

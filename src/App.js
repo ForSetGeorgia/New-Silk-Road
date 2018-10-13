@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 
 import { Home, AboutEvent, AboutOrganizers, Article, Biographies } from './pages'
-import { Meta, Header, Breadcrumb, Footer } from './components'
+import { Header, Breadcrumb, Footer } from './components'
 
 import './styles/app.css'
 
@@ -16,7 +16,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Meta {...this.props} />
 
         <div className='BGTable HomeSkin'>
           <Header key='header' />

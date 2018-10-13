@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
 
+import { Meta } from '../../components'
 import images from './data.json'
 
 import './style.css'
@@ -10,6 +11,8 @@ class AboutEvent extends Component {
   render () {
     return (
       <div>
+        <Meta {...this.props} title='About Event' />
+
         <h1>About Event</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nibh tristique, morbi inceptos tempor a elementum fusce placerat facilisis ut eget, ante quis quam cubilia mauris leo enim suspendisse. Conubia sociis mi hendrerit metus cubilia risus nulla, porta nostra sociosqu libero elementum ligula lacus, bibendum malesuada curae pharetra varius erat. Lobortis libero ut cubilia pretium cras eget senectus euismod, parturient tempus convallis magna facilisis dictum accumsan, duis quis praesent nascetur eleifend ridiculus phasellus.</p>

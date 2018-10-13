@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 
+import { Meta } from '../../components'
 import articles from './data.json'
 import bios from '../Biographies/data.json'
 
@@ -35,6 +36,8 @@ class Article extends Component {
         {
           article ? (
               <div>
+                <Meta {...this.props} title={article.title} desc={article.summary} />
+
                 <h1>{article.title}</h1>
 
                 <div dangerouslySetInnerHTML={{__html: article.content}} />

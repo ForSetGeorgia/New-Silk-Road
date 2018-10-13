@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import { Meta } from '../../components'
 import bios from './data.json'
 
 import './style.css'
@@ -8,6 +9,8 @@ class Biographies extends Component {
   render () {
     return (
       <div>
+        <Meta {...this.props} title='Biographies' />
+
         <h1>Biographies</h1>
         <div className="bios">
           {
