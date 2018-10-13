@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
 
 import { Meta } from '../../components'
 import articles from './data.json'
@@ -25,11 +27,52 @@ class Article extends Component {
     return bio
   }
 
+  createSlideshowCode(article) {
+    if (article && article.slideshow){
+      return (
+        <Carousel useKeyboardArrows
+                  ref={(ref) => (this.carousel = ref)}
+                  showThumbs={false} showStatus={false}
+                  infiniteLoop={true} selectedItem={0}>
+          {
+            article.slideshow.map((image, key) => {
+              return (
+                <div key={key}>
+                  <img src={require(`../../images/${image.file}`)}/>
+                  <p className="legend">{image.caption}</p>
+                 </div>
+              )
+            })
+          }
+        </Carousel>
+      )
+    }
+  }
+
+  createVideoCode(article) {
+    if (article && article.video_id && article.video_type){
+      if (article.video_type === 'vimeo'){
+        return (
+          <div className='embed-container'>
+            <iframe src={`https://player.vimeo.com/video/${article.video_id}?color=ff000d`} style={{position:'absolute'}, {top:0},{left:0},{width:'100%'},{height:'100%'}} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        )
+      }else if (article.video_type === 'youtube'){
+        return (
+          <div className='embed-container'>
+            <iframe width="100%" src={`https://www.youtube-nocookie.com/embed/${article.video_id}?rel=0`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        )
+      }
+    }
+  }
+
   render () {
     const splitPath = this.props.match.params.article_id.split('/')
     const article_id = splitPath.slice(-1)[0]
     const article = article_id ? articles[article_id] : null
     const bio = article && article.author_id && bios ? this.getBio(article.author_id) : null
+    // const contents = this.generateContent(article)
 
     return (
       <div>
@@ -40,10 +83,27 @@ class Article extends Component {
 
                 <h1>{article.title}</h1>
 
-                <div dangerouslySetInnerHTML={{__html: article.content}} />
+                {
+                  article.content.map((item) => {
+                    return(
+                      item === '[video]' ? (
+                        this.createVideoCode(article)
+                      ) : item === '[slideshow]' ? (
+                        this.createSlideshowCode(article)
+                      ) : item[0] === '<' ? (
+                        <div dangerouslySetInnerHTML={{__html: item}} />
+                      ) : (
+                        <p>{item}</p>
+                      )
+                    )
+                  })
+
+                }
+
                 {
                   article.footnotes ? (
                     <div>
+                      <hr />
                       <h2>Footnotes</h2>
                       <div dangerouslySetInnerHTML={{__html: article.footnotes}} />
                     </div>
