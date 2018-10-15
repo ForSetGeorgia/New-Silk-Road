@@ -17,6 +17,13 @@ h1{
   }
 }
 
+.ContentMain{
+  margin-bottom: 40px;
+}
+footer .BottomMain{
+  height: 20px;
+}
+
 .carousel .control-arrow{
   min-width: inherit;
 }

@@ -8,6 +8,8 @@ import './style.css'
 
 class Home extends Component {
   render () {
+    const map_img = require('../../images/map.png')
+
     return (
       <div className='main-content'>
         <Meta {...this.props} bodyClass='home' />
@@ -36,7 +38,15 @@ class Home extends Component {
                 }
               </ul>
             </div>
+          </div>
 
+          <div className="row">
+            <div className="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-12 home-map">
+              <img src={map_img} alt='map' />
+            </div>
+            <div className="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 map-caption">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit posuere, et hendrerit augue enim risus lacinia habitant donec massa, cubilia euismod luctus ligula iaculis varius pellentesque. Quam dictumst est ut blandit pellentesque facilisi mi, luctus eu malesuada tristique sagittis ante gravida nisi, bibendum magnis at dapibus viverra porta.
+            </div>
           </div>
         </div>
 
