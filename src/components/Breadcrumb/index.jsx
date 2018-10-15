@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './style.css'
 
@@ -22,7 +23,7 @@ class Breadcrumb extends React.Component {
                                       <ul className="BT-breadcrumbLink">
                                           <li className="BT-breadcrumbLinkCurrent" style={{display: 'initial'}}>
                                             <span className="s4-breadcrumb-arrowcont">&nbsp;<i className="fa fa-angle-right"></i>&nbsp;</span>
-                                            <a className="BT-breadcrumbLinkCurrent" href="./" style={{display: 'initial'}}>Muslims on the Belt and Road</a>
+                                            <Link to={'/'} className="BT-breadcrumbLinkCurrent" style={{display: 'initial'}}>Muslims on the Belt and Road</Link>
                                           </li>
                                       </ul>
                                   </li>
