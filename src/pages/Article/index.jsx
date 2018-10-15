@@ -54,7 +54,7 @@ class Article extends Component {
       if (article.video_type === 'vimeo'){
         return (
           <div className='embed-container'>
-            <iframe src={`https://player.vimeo.com/video/${article.video_id}?color=ff000d`} style={{position:'absolute'}, {top:0},{left:0},{width:'100%'},{height:'100%'}} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe src={`https://player.vimeo.com/video/${article.video_id}?color=ff000d`} frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
         )
       }else if (article.video_type === 'youtube'){
