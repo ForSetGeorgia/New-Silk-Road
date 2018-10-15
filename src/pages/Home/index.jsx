@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div className='main-content'>
         <Meta {...this.props} bodyClass='home' />
-        <SocialLinks key='sociallinks' />
+        <SocialLinks {...this.props} key='sociallinks' />
 
         <div className="container">
           <div className="row">

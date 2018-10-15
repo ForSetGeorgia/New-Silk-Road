@@ -12,7 +12,7 @@ class AboutEvent extends Component {
     return (
       <div className='main-content'>
         <Meta {...this.props} title='About Event' bodyClass='about-event' />
-        <SocialLinks key='sociallinks' title='About Event' />
+        <SocialLinks {...this.props} key='sociallinks' title='About Event' />
 
         <h1>About Event</h1>
 

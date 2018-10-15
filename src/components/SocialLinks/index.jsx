@@ -1,5 +1,7 @@
 import React from 'react'
 
+import getEnvAppURL from '../../utils/get_env_app_url'
+
 import './style.css'
 
 
@@ -23,7 +25,8 @@ class SocialLinks extends React.Component {
     const t = require('../../images/twitter.svg')
     const shareTitle = this.props.title ? this.props.title + ' | Muslims on the Belt and Road' : 'Muslims on the Belt and Road: New Silk Road Social Transformation in Inner Asia'
     const shareVia = '@AKUGlobal'
-    const shareUrl = window.location.href
+    const appUrl = getEnvAppURL(process.env.REACT_APP_ENV)
+    const shareUrl = this.props.match.url === '/' ? appUrl : appUrl + this.props.match.url
 
     return (
       <div className='aside-share-links'>

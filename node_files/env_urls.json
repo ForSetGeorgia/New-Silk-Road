@@ -1,0 +1,14 @@
+{
+  "development": {
+    "base_url": "http://localhost:3000",
+    "base_path": "/"
+  },
+  "staging": {
+    "base_url": "https://dev.forset.ge",
+    "base_path": "/agakhan"
+  },
+  "production": {
+    "base_url": "",
+    "base_path": ""
+  }
+}

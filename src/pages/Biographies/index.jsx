@@ -10,7 +10,7 @@ class Biographies extends Component {
     return (
       <div className='main-content'>
         <Meta {...this.props} title='Biographies' bodyClass='bio' />
-        <SocialLinks key='sociallinks' title='Biographies' />
+        <SocialLinks {...this.props} key='sociallinks' title='Biographies' />
 
         <h1>Biographies</h1>
         <div className="bios">

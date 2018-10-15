@@ -8,7 +8,7 @@ class AboutOrganizers extends Component {
     return (
       <div className='main-content'>
         <Meta {...this.props} title='About Organizers' bodyClass='about-organizers' />
-        <SocialLinks key='sociallinks' title='About Organizers' />
+        <SocialLinks {...this.props} key='sociallinks' title='About Organizers' />
 
         <h1>About Organizers</h1>
 

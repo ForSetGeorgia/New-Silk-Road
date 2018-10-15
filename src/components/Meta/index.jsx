@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import {Helmet} from "react-helmet";
 
+// import getEnvBaseURL from '../../utils/get_env_base_url'
+import getEnvAppURL from '../../utils/get_env_app_url'
+
 class Meta extends Component {
 
   render () {
-    const pageUrl = window.location.href
-    const baseUrl = pageUrl.replace(this.props.match.path, '')
+    // const baseUrl = getEnvBaseURL(process.env.REACT_APP_ENV)
+    const appUrl = getEnvAppURL(process.env.REACT_APP_ENV)
+    const pageUrl = this.props.match.url === '/' ? appUrl : appUrl + this.props.match.url
+
     const shareImage = require('../../images/AKU_logo.gif')
     const siteName = 'Muslims on the Belt and Road: New Silk Road Social Transformation in Inner Asia'
     const defaultTitle = `${siteName} | ISMC | Aga Khan University`
@@ -25,12 +30,12 @@ class Meta extends Component {
         <meta name="twitter:creator" content="@AKUGlobal" />
         <meta name="twitter:title" content={pageTitle ? pageTitle : siteName} />
         <meta name="twitter:description" content={pageDesc} />
-        <meta name="twitter:image" content={baseUrl + '/' + shareImage} />
+        <meta name="twitter:image" content={appUrl + '/' + shareImage} />
 
         <meta property="og:url" content={pageUrl} />
         <meta property="og:title" content={pageTitle ? pageTitle : siteName} />
         <meta property="og:description" content={pageDesc} />
-        <meta property="og:image" content={baseUrl + '/' + shareImage}  />
+        <meta property="og:image" content={appUrl + '/' + shareImage}  />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={siteName} />
 

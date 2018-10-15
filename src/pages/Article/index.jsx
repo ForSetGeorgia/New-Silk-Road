@@ -80,7 +80,7 @@ class Article extends Component {
           article ? (
               <div>
                 <Meta {...this.props} title={article.title} desc={article.summary} bodyClass='article' />
-                <SocialLinks key='sociallinks' title={article.title} />
+                <SocialLinks {...this.props} key='sociallinks' title={article.title} />
 
                 <h1>{article.title}</h1>
 

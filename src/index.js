@@ -7,7 +7,7 @@ import App from './App'
 import './index.css'
 
 render(
-  <Router><App /></Router>,
+  <Router basename={process.env.REACT_APP_BASENAME}><App /></Router>,
   document.getElementById('root')
 )
 

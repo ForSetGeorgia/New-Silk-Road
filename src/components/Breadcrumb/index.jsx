@@ -30,10 +30,6 @@ class Breadcrumb extends React.Component {
                               </ul>
                           </li>
                       </ul>
-                      <script type="text/javascript">
-                      $('.s4-breadcrumb-arrowcont').html("&nbsp;<i className='fa fa-angle-right'></i>&nbsp;");
-                      $('.s4-breadcrumb-arrowcont').first().html("");
-                      </script>
                   </div>
               </div>
           </div>
