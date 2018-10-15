@@ -15,11 +15,11 @@ class Breadcrumb extends React.Component {
                       <ul className="BT-breadcrumb">
                           <li className="BT-breadcrumbLinkRoot">
                               <span className="s4-breadcrumb-arrowcont"></span>
-                              <a className="BT-breadcrumbLinkRoot" href="/">Home</a>
+                              <a className="BT-breadcrumbLinkRoot" href="https://www.aku.edu/">Home</a>
                               <ul className="BT-breadcrumbLinkRoot">
                                   <li className="BT-breadcrumbLink">
                                       <span className="s4-breadcrumb-arrowcont">&nbsp;<i className="fa fa-angle-right"></i>&nbsp;</span>
-                                      <a className="BT-breadcrumbLink" href="/ismc/Pages/home.aspx">Institute for the Study of Muslim Civilisations</a>
+                                      <a className="BT-breadcrumbLink" href="https://www.aku.edu/ismc/Pages/home.aspx">Institute for the Study of Muslim Civilisations</a>
                                       <ul className="BT-breadcrumbLink">
                                           <li className="BT-breadcrumbLinkCurrent" style={{display: 'initial'}}>
                                             <span className="s4-breadcrumb-arrowcont">&nbsp;<i className="fa fa-angle-right"></i>&nbsp;</span>
