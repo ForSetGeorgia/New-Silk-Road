@@ -25,8 +25,39 @@ footer .BottomMain{
 }
 
 .carousel{
-  height: 700px;
+  height: 200px;
 }
+@media screen and (min-height: 300px) and (min-width: 600px)
+{
+  .carousel{
+    height: 300px;
+  }
+}
+@media screen and (min-height: 400px) and (min-width: 700px)
+{
+  .carousel{
+    height: 400px;
+  }
+}
+@media screen and (min-height: 500px) and (min-width: 800px)
+{
+  .carousel{
+    height: 500px;
+  }
+}
+@media screen and (min-height: 600px) and (min-width: 900px)
+{
+  .carousel{
+    height: 600px;
+  }
+}
+@media screen and (min-height: 720px) and (min-width: 1000px)
+{
+  .carousel{
+    height: 720px;
+  }
+}
+
 .carousel .slider-wrapper{
   height: 100%;
 }
