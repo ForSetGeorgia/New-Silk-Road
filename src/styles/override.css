@@ -24,8 +24,24 @@ footer .BottomMain{
   height: 20px;
 }
 
+.carousel{
+  height: 700px;
+}
+.carousel .slider-wrapper{
+  height: 100%;
+}
 .carousel .control-arrow{
   min-width: inherit;
+}
+.carousel .slider{
+  height: 100%;
+}
+.carousel .slide > div{
+  height: 100%;
+}
+.carousel .slide img{
+  width: inherit;
+  height: 100%;
 }
 .carousel .slide .legend{
   opacity: 1;
