@@ -1,3 +1,6 @@
+body{
+  overflow: initial;
+}
 h1{
   max-width: 80%;
 }
