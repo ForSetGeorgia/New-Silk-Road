@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
 
-import { Meta } from '../../components'
+import { Meta, SocialLinks } from '../../components'
 import images from './data.json'
 
 import './style.css'
@@ -10,8 +10,9 @@ import './style.css'
 class AboutEvent extends Component {
   render () {
     return (
-      <div>
-        <Meta {...this.props} title='About Event' />
+      <div className='main-content'>
+        <Meta {...this.props} title='About Event' bodyClass='about-event' />
+        <SocialLinks key='sociallinks' title='About Event' />
 
         <h1>About Event</h1>
 

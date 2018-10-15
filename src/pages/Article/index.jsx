@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
 
-import { Meta } from '../../components'
+import { Meta, SocialLinks } from '../../components'
 import articles from './data.json'
 import bios from '../Biographies/data.json'
 
@@ -75,11 +75,12 @@ class Article extends Component {
     // const contents = this.generateContent(article)
 
     return (
-      <div>
+      <div className='main-content'>
         {
           article ? (
               <div>
-                <Meta {...this.props} title={article.title} desc={article.summary} />
+                <Meta {...this.props} title={article.title} desc={article.summary} bodyClass='article' />
+                <SocialLinks key='sociallinks' title={article.title} />
 
                 <h1>{article.title}</h1>
 

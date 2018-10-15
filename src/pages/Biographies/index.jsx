@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Meta } from '../../components'
+import { Meta, SocialLinks } from '../../components'
 import bios from './data.json'
 
 import './style.css'
@@ -8,8 +8,9 @@ import './style.css'
 class Biographies extends Component {
   render () {
     return (
-      <div>
-        <Meta {...this.props} title='Biographies' />
+      <div className='main-content'>
+        <Meta {...this.props} title='Biographies' bodyClass='bio' />
+        <SocialLinks key='sociallinks' title='Biographies' />
 
         <h1>Biographies</h1>
         <div className="bios">

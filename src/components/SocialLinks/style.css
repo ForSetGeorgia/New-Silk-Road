@@ -1,0 +1,33 @@
+.aside-share-links{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+body.page-home .aside-share-links{
+  top: 16px;
+}
+
+
+.aside-share-links a {
+  display: inline-block;
+  opacity: 0.7;
+  margin-right: 15px;
+}
+
+.aside-share-links a:last-of-type {
+  margin-right: 0;
+}
+
+.aside-share-links a:hover {
+  opacity: 1;
+}
+
+.aside-share-links a.share-f img {
+  width: 13px;
+  height: 28px;
+}
+.aside-share-links a.share-t img {
+  width: 29px;
+  height: 24px;
+}

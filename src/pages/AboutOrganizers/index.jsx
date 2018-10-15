@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
-import { Meta } from '../../components'
+import { Meta, SocialLinks } from '../../components'
 import './style.css'
 
 class AboutOrganizers extends Component {
   render () {
     return (
-      <div>
-        <Meta {...this.props} title='About Organizers' />
+      <div className='main-content'>
+        <Meta {...this.props} title='About Organizers' bodyClass='about-organizers' />
+        <SocialLinks key='sociallinks' title='About Organizers' />
 
         <h1>About Organizers</h1>
 

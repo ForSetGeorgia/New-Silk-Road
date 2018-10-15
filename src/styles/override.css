@@ -1,0 +1,13 @@
+h1{
+  max-width: 80%;
+}
+@media screen and (max-width: 991px)
+{
+  .AINav > li > a{
+    padding: 10px 20px !important;
+    border-bottom: none !important;
+  }
+  .AINav > li > a:hover{
+    border-bottom: none !important;
+  }
+}

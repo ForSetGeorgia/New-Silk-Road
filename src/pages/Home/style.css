@@ -1,4 +1,7 @@
-.articles {
+.aside-articles {
+  margin-top: 48px;
+}
+.aside-articles .articles {
   list-style-type: none;
   padding-left: 0;
   display: grid;
@@ -10,22 +13,22 @@
 }
 
 @media(min-width:650px) {
-  .articles {
+  .aside-articles .articles {
     grid-template-areas: "a0 a1"
                          "a2 a3";
   }
 }
 
-.articles .article.article-0{
+.aside-articles .articles .article.article-0{
   grid-area: a0;
 }
-.articles .article.article-1{
+.aside-articles .articles .article.article-1{
   grid-area: a1;
 }
-.articles .article.article-2{
+.aside-articles .articles .article.article-2{
   grid-area: a2;
 }
-.articles .article.article-3{
+.aside-articles .articles .article.article-3{
   grid-area: a3;
 }
 

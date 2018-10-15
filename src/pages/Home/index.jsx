@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import { Meta } from '../../components'
+import { Meta, SocialLinks } from '../../components'
 import articles from '../Article/data.json'
 
 import './style.css'
@@ -9,8 +9,9 @@ import './style.css'
 class Home extends Component {
   render () {
     return (
-      <div>
-        <Meta {...this.props} />
+      <div className='main-content'>
+        <Meta {...this.props} bodyClass='home' />
+        <SocialLinks key='sociallinks' />
 
         <div className="container">
           <div className="row">
@@ -20,7 +21,7 @@ class Home extends Component {
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit volutpat mauris metus condimentum, pellentesque commodo tempor maecenas blandit facilisi fermentum ullamcorper lobortis et, quisque dictum lacinia vitae natoque ligula gravida diam nisl magnis. Eros magna taciti porta purus mi ridiculus sed augue, cum luctus sodales aliquet viverra suscipit ultrices mus egestas, dignissim tortor class platea condimentum ante aliquam. Sodales erat himenaeos aliquam imperdiet vehicula sollicitudin consequat, ridiculus nec etiam proin scelerisque sapien commodo blandit, at placerat conubia non ut odio.</p>
               <p>Condimentum dictum himenaeos fusce fringilla diam, facilisis nam maecenas feugiat class mollis, bibendum natoque purus nec. Viverra vel posuere aptent per habitasse praesent cubilia, ad duis vehicula nostra maecenas tincidunt, sagittis sociis ante etiam integer accumsan. Pellentesque per ad habitasse etiam taciti auctor purus orci, mi leo eleifend hendrerit fames curae est tempus duis, pretium dis quisque tincidunt vestibulum neque luctus.</p>            </div>
 
-            <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12 aside-articles">
               <h2>Articles</h2>
               <ul className='articles'>
                 {

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.068 27.937">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.7;
+      }
+
+      .cls-2 {
+        fill: #ababab;
+      }
+    </style>
+  </defs>
+  <g id="XMLID_36_" class="cls-1" transform="translate(0)">
+    <path id="XMLID_37_" class="cls-2" d="M12.129,17.856H0V12.3H13.068Z" transform="translate(0 -2.988)"/>
+    <path id="Facebook_1_" class="cls-2" d="M3.6,6.034v22.3H9.156V6.9a.83.83,0,0,1,.939-.939h3.756V.4h-4.3C3.443.4,3.6,5.252,3.6,6.034Z" transform="translate(-0.783 -0.4)"/>
+  </g>
+</svg>

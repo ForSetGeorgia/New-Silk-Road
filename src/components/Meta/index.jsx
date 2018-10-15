@@ -34,6 +34,7 @@ class Meta extends Component {
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={siteName} />
 
+        <body className={`page-${this.props.bodyClass}`} />
       </Helmet>
 
     )
