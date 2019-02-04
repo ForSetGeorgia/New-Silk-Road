@@ -39,7 +39,11 @@ class Article extends Component {
               return (
                 <div key={key}>
                   <img src={require(`../../images/${image.file}`)}/>
-                  <p className="legend">{image.caption}</p>
+                  {
+                    image.caption ? (
+                      <p className="legend">{image.caption}</p>
+                    ) : ''
+                  }
                  </div>
               )
             })
@@ -91,7 +95,7 @@ class Article extends Component {
                         this.createVideoCode(article)
                       ) : item === '[slideshow]' ? (
                         this.createSlideshowCode(article)
-                      ) : item[0] === '<' ? (
+                      ) : item.includes('</') ? (
                         <div dangerouslySetInnerHTML={{__html: item}} />
                       ) : (
                         <p>{item}</p>

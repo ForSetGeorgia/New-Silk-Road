@@ -12,18 +12,25 @@ class AboutOrganizers extends Component {
 
         <h1>About Organizers</h1>
 
-        <h2><a href="https://www.aku.edu/ismc/Pages/home.aspx" target="_blank">Aga Khan University</a></h2>
+        <h2><a href="https://www.aku.edu/ismc/Pages/home.aspx" target="_blank">The Institute for the Study of Muslim Civilisations</a></h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nibh tristique, morbi inceptos tempor a elementum fusce placerat facilisis ut eget, ante quis quam cubilia mauris leo enim suspendisse. Conubia sociis mi hendrerit metus cubilia risus nulla, porta nostra sociosqu libero elementum ligula lacus, bibendum malesuada curae pharetra varius erat. Lobortis libero ut cubilia pretium cras eget senectus euismod, parturient tempus convallis magna facilisis dictum accumsan, duis quis praesent nascetur eleifend ridiculus phasellus.</p>
-        <p>Commodo tellus felis condimentum a vestibulum lectus egestas feugiat nascetur, ac neque cursus diam duis justo facilisis ullamcorper. Facilisis nisl litora neque penatibus curae at semper nostra pellentesque, varius rhoncus justo tempus eleifend mattis pharetra aliquet, hendrerit convallis tincidunt habitant aliquam primis magnis eget. Torquent ullamcorper risus orci aenean donec scelerisque dis, enim condimentum tempor lacus vel ad taciti tincidunt, in morbi per facilisi commodo class. Litora quis condimentum vivamus nec accumsan tincidunt pharetra sem, proin ultricies dignissim lobortis suscipit eu molestie, volutpat euismod interdum bibendum egestas commodo aenean.</p>
+        <p>The Aga Khan University established the <a href="https://www.aku.edu/ismc/Pages/home.aspx" target="_blank">Institute for the Study of Muslim Civilisations</a> in 2002. AKU-ISMC is a higher education institution with a focus on research, publications, graduate studies and outreach. It promotes scholarship that opens up new perspectives on Muslim heritage, modernity, culture, religion and society. AKU-ISMC students use critical thinking to conduct innovative research into Muslim civilisations and religious traditions from primarily the perspectives of the social sciences and humanities. The Institute aims to create opportunities for interaction among academics and other professionals so as to deepen understanding of the pressing issues of public life affecting Muslim societies.​</p>
+        <p>ISMC’s publications address current trends of thought about Islam, Muslims and Muslim societies.​ By creating access to scholarship from Muslim contexts in the English language and on a global platform, ISMC publications foster intellectual exchange and dialogue about and between Muslim societies and cultures.​ ISMC’s <a href="https://www.aku.edu/ismc/publications/Documents/AKU-ISMC%20Publications%20Catalogue%204.pdf" target="_blank">Publications Catalogue​</a> lists our new and forthcoming books, as well as our backlist.</p>
+
         <div className='embed-container'>
           <iframe src='https://player.vimeo.com/video/253616577?color=ff000d' frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
-        <p>Consequat imperdiet ligula orci pharetra aenean sed litora aliquam elementum dis, maecenas accumsan in primis felis vitae platea condimentum et. Vestibulum tempus euismod nostra praesent morbi sollicitudin sagittis convallis vivamus ante magna porta, ut tempor venenatis proin nam facilisi lacus fames accumsan iaculis libero, nunc fermentum vehicula per non ridiculus mus sodales primis mattis mollis. Cum nulla lacus phasellus egestas erat quis posuere, malesuada arcu sed non dapibus netus, tempus felis torquent nullam class gravida.</p>
 
-        <h3><a href="https://www.eurasianet.org/" target="_blank">eurasianet</a></h3>
+        <h2><a href="https://www.eurasianet.org/" target="_blank">Eurasianet</a></h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit nibh tristique, morbi inceptos tempor a elementum fusce placerat facilisis ut eget, ante quis quam cubilia mauris leo enim suspendisse. Conubia sociis mi hendrerit metus cubilia risus nulla, porta nostra sociosqu libero elementum ligula lacus, bibendum malesuada curae pharetra varius erat. Lobortis libero ut cubilia pretium cras eget senectus euismod, parturient tempus convallis magna facilisis dictum accumsan, duis quis praesent nascetur eleifend ridiculus phasellus.</p>
+        <p>The special feature, <b><em>Muslims on the Belt and Road: New Silk Road Social Transformations in
+Inner Asia</em></b>, was created in collaboration with <a href="https://eurasianet.org/" target="_blank">Eurasianet</a>, an independent
+news organization that covers news from and about the South Caucasus and Central Asia.
+Eurasianet provides on-the-ground reporting and critical perspectives on the most important
+developments in the region. It strives to provide information useful to policymakers, scholars,
+and interested citizens both in and outside of Eurasia. Content is published in both English and
+Russian. Eurasianet is a tax-exempt [501(c)3] organization based at Columbia University’s
+Harriman Institute, one of the leading centers in North America of scholarship on Eurasia.</p>
       </div>
     )
   }
