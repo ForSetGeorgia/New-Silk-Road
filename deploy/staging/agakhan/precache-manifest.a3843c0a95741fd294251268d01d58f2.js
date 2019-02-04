@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3c90e6d1842a5501dcdaa230b1f64b2a",
-    "url": "/agakhan/static/media/5.3c90e6d1.jpg"
+    "revision": "3e9734ed7faab5d4a2942ab5d6e79dc7",
+    "url": "/agakhan/static/media/4.3e9734ed.jpg"
   },
   {
-    "revision": "81b1ade60eee1b68e80c",
-    "url": "/agakhan/static/css/main.3b177312.chunk.css"
+    "revision": "ae36cc9ae6f5097f3ee3",
+    "url": "/agakhan/static/css/main.66266df9.chunk.css"
   },
   {
     "revision": "9d2e353193304c85153cded0919b7739",
     "url": "/agakhan/static/media/fontawesome-webfont.9d2e3531.svg"
   },
   {
-    "revision": "34628c6789b0c204bb9c",
-    "url": "/agakhan/static/js/1.34628c67.chunk.js"
+    "revision": "f78b2c0edb34860e5c1a",
+    "url": "/agakhan/static/js/1.f78b2c0e.chunk.js"
   },
   {
     "revision": "c6e6ddc2d28cac890d82",
@@ -30,6 +30,14 @@ self.__precacheManifest = [
   {
     "revision": "de7e6b4d92e0a71a18415e0bc0e8d83f",
     "url": "/agakhan/static/media/map.de7e6b4d.png"
+  },
+  {
+    "revision": "468091a644e7fc123a284b21e76c9366",
+    "url": "/agakhan/static/media/1.468091a6.jpg"
+  },
+  {
+    "revision": "6d0a64c92925cdf42475a6d8ec6eef16",
+    "url": "/agakhan/static/media/1.6d0a64c9.jpg"
   },
   {
     "revision": "bea4fb65c7d30aac196489b2e725caf4",
@@ -80,12 +88,12 @@ self.__precacheManifest = [
     "url": "/agakhan/static/media/3.1bf83a1c.jpg"
   },
   {
-    "revision": "3e9734ed7faab5d4a2942ab5d6e79dc7",
-    "url": "/agakhan/static/media/4.3e9734ed.jpg"
+    "revision": "ae36cc9ae6f5097f3ee3",
+    "url": "/agakhan/static/js/main.ae36cc9a.chunk.js"
   },
   {
-    "revision": "81b1ade60eee1b68e80c",
-    "url": "/agakhan/static/js/main.81b1ade6.chunk.js"
+    "revision": "3c90e6d1842a5501dcdaa230b1f64b2a",
+    "url": "/agakhan/static/media/5.3c90e6d1.jpg"
   },
   {
     "revision": "e388a3bc9d024e3b4c83a2c73ab35dfa",
@@ -160,11 +168,11 @@ self.__precacheManifest = [
     "url": "/agakhan/static/media/fontawesome-webfont.7c87870a.ttf"
   },
   {
-    "revision": "34628c6789b0c204bb9c",
-    "url": "/agakhan/static/css/1.31c5e665.chunk.css"
+    "revision": "f78b2c0edb34860e5c1a",
+    "url": "/agakhan/static/css/1.c867a607.chunk.css"
   },
   {
-    "revision": "6b2d2e266337e840b1ab699386f58cdf",
+    "revision": "7467682d957885ae68966156b0c18e01",
     "url": "/agakhan/index.html"
   }
 ];
