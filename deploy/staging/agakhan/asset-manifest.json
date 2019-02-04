@@ -1,7 +1,7 @@
 {
   "main.css": "/agakhan/static/css/main.66266df9.chunk.css",
-  "main.js": "/agakhan/static/js/main.ae36cc9a.chunk.js",
-  "main.js.map": "/agakhan/static/js/main.ae36cc9a.chunk.js.map",
+  "main.js": "/agakhan/static/js/main.90808d68.chunk.js",
+  "main.js.map": "/agakhan/static/js/main.90808d68.chunk.js.map",
   "static/css/1.c867a607.chunk.css": "/agakhan/static/css/1.c867a607.chunk.css",
   "static/js/1.f78b2c0e.chunk.js": "/agakhan/static/js/1.f78b2c0e.chunk.js",
   "static/js/1.f78b2c0e.chunk.js.map": "/agakhan/static/js/1.f78b2c0e.chunk.js.map",
@@ -24,6 +24,6 @@
   "static/css/main.66266df9.chunk.css.map": "/agakhan/static/css/main.66266df9.chunk.css.map",
   "static/css/1.c867a607.chunk.css.map": "/agakhan/static/css/1.c867a607.chunk.css.map",
   "index.html": "/agakhan/index.html",
-  "precache-manifest.a3843c0a95741fd294251268d01d58f2.js": "/agakhan/precache-manifest.a3843c0a95741fd294251268d01d58f2.js",
+  "precache-manifest.b171ab594a1991c4cc821690cd8f7a8a.js": "/agakhan/precache-manifest.b171ab594a1991c4cc821690cd8f7a8a.js",
   "service-worker.js": "/agakhan/service-worker.js"
 }
