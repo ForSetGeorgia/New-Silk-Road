@@ -47,7 +47,7 @@ class Home extends Component {
               <img src={map_img} alt='map' />
             </div>
             <div className="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 map-caption">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit posuere, et hendrerit augue enim risus lacinia habitant donec massa, cubilia euismod luctus ligula iaculis varius pellentesque. Quam dictumst est ut blandit pellentesque facilisi mi, luctus eu malesuada tristique sagittis ante gravida nisi, bibendum magnis at dapibus viverra porta.
+              Rail transport is a major component of China's ambitious Belt and Road project, which is designed to ease the flow of Chinese exports across the Eurasian landmass.  The project envisions lots of investment to build new infrastructure and rail links. It also seeks to utilize existing networks, including the fabled Trans-Siberian Railway. This maps highlights the main railways and key hubs in the Belt and Road blueprint that traverse Central Asia.
             </div>
           </div>
         </div>
