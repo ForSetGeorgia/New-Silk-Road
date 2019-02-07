@@ -18,7 +18,7 @@ class AboutOrganizers extends Component {
         <p>ISMC’s publications address current trends of thought about Islam, Muslims and Muslim societies.​ By creating access to scholarship from Muslim contexts in the English language and on a global platform, ISMC publications foster intellectual exchange and dialogue about and between Muslim societies and cultures.​ ISMC’s <a href="https://www.aku.edu/ismc/publications/Documents/AKU-ISMC%20Publications%20Catalogue%204.pdf" target="_blank">Publications Catalogue​</a> lists our new and forthcoming books, as well as our backlist.</p>
 
         <div className='embed-container'>
-          <iframe src='https://player.vimeo.com/video/253616577?color=ff000d' frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe width="100%" src="https://www.youtube-nocookie.com/embed/WPWSh7k_nhA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
 
         <h2><a href="https://www.eurasianet.org/" target="_blank">Eurasianet</a></h2>

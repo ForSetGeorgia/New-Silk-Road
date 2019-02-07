@@ -64,7 +64,7 @@ class Article extends Component {
       }else if (article.video_type === 'youtube'){
         return (
           <div className='embed-container'>
-            <iframe width="100%" src={`https://www.youtube-nocookie.com/embed/${article.video_id}?rel=0`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" src={`https://www.youtube-nocookie.com/embed/${article.video_id}`} frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
         )
       }
