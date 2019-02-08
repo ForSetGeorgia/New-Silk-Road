@@ -29,7 +29,7 @@ class Footer extends React.Component {
                           <div className="container container-alignment" style={{backgroundColor: '#007134'}}>
                               <div className="row">
                                   <div className="col-md-12 col-sm-12 copyright">
-                                      <span className="copyrightspan"> <a href="/Pages/copyright.aspx">© The Aga Khan University, 2018</a></span>
+                                      <span className="copyrightspan"> <a href="/Pages/copyright.aspx">© The Aga Khan University, {(new Date()).getFullYear()}</a></span>
                                       <br/>
                                   </div>
                                   <div className="col-md-8 col-sm-8 footerlinks footerlinksalignment">
