@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/agakhan/static/media/4.7d7bb44b.jpg"
   },
   {
-    "revision": "b16f3af484174b5b7bc3",
+    "revision": "aedef8bf61f6ddd03231",
     "url": "/agakhan/static/css/main.66266df9.chunk.css"
   },
   {
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/agakhan/static/media/3.e5e9e229.jpg"
   },
   {
-    "revision": "b16f3af484174b5b7bc3",
-    "url": "/agakhan/static/js/main.b16f3af4.chunk.js"
+    "revision": "aedef8bf61f6ddd03231",
+    "url": "/agakhan/static/js/main.aedef8bf.chunk.js"
   },
   {
     "revision": "56b2578775e9f7f5f04293a2a453ccdd",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/agakhan/static/css/1.c867a607.chunk.css"
   },
   {
-    "revision": "cc152543b50feeb9f5e6a12e9506363a",
+    "revision": "290ff463bcea13ddd65cba9d6bcd8fa7",
     "url": "/agakhan/index.html"
   }
 ];
